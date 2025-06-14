@@ -1,0 +1,817 @@
+{
+  "url": "https://vistaauction.com",
+  "domain": "vistaauction.com",
+  "title": "Vista Auction",
+  "meta": {
+    "description": "We are Vista Auction, an online liquidation company located in Charlotte, NC were all bids start at $1. We auction off amazon overstock, and returns with all bids starting at $1",
+    "keywords": "Charlotte Auctions, Vista Auction, vistaauction, good deal, bargin, amazon returns, auctions, baby products, discount, sale, kitchen supplies"
+  },
+  "headings": {
+    "h1": [],
+    "h2": []
+  },
+  "content": {
+    "body_preview": "We're hiring!Click hereto apply! Try our newSaved Searchesfeature! Schedule Pickup Appointments Live updates appear to be disconnected Click to refresh now",
+    "paragraphs": [
+      "We're hiring!Click hereto apply!",
+      "Try our newSaved Searchesfeature!",
+      "Schedule Pickup Appointments",
+      "Live updates appear to be disconnected",
+      "Click to refresh now"
+    ]
+  },
+  "links": [
+    {
+      "text": "Home",
+      "url": "https://vistaauction.com/",
+      "is_internal": true
+    },
+    {
+      "text": "Category",
+      "url": "https://vistaauction.com",
+      "is_internal": true
+    },
+    {
+      "text": "All Categories",
+      "url": "https://vistaauction.com/Listing",
+      "is_internal": true
+    },
+    {
+      "text": "Auction",
+      "url": "https://vistaauction.com/Browse/C163118/Auction",
+      "is_internal": true
+    },
+    {
+      "text": "Appliances",
+      "url": "https://vistaauction.com/Browse/C26985670/Appliances",
+      "is_internal": true
+    },
+    {
+      "text": "Automotive",
+      "url": "https://vistaauction.com/Browse/C26985676/Automotive",
+      "is_internal": true
+    },
+    {
+      "text": "Baby Products",
+      "url": "https://vistaauction.com/Browse/C26985678/Baby-Products",
+      "is_internal": true
+    },
+    {
+      "text": "Beauty & Personal Care",
+      "url": "https://vistaauction.com/Browse/C26985680/Beauty-Personal-Care",
+      "is_internal": true
+    },
+    {
+      "text": "Books",
+      "url": "https://vistaauction.com/Browse/C26985682/Books",
+      "is_internal": true
+    },
+    {
+      "text": "CDs & Vinyl",
+      "url": "https://vistaauction.com/Browse/C26985684/CDs-Vinyl",
+      "is_internal": true
+    },
+    {
+      "text": "Cell Phones & Accessories",
+      "url": "https://vistaauction.com/Browse/C26985686/Cell-Phones-Accessories",
+      "is_internal": true
+    },
+    {
+      "text": "Electronics",
+      "url": "https://vistaauction.com/Browse/C26985692/Electronics",
+      "is_internal": true
+    },
+    {
+      "text": "Grocery & Gourmet Food",
+      "url": "https://vistaauction.com/Browse/C26985694/Grocery-Gourmet-Food",
+      "is_internal": true
+    },
+    {
+      "text": "Handmade Products",
+      "url": "https://vistaauction.com/Browse/C26985696/Handmade-Products",
+      "is_internal": true
+    },
+    {
+      "text": "Health & Household",
+      "url": "https://vistaauction.com/Browse/C26985698/Health-Household",
+      "is_internal": true
+    },
+    {
+      "text": "Home & Kitchen",
+      "url": "https://vistaauction.com/Browse/C26985700/Home-Kitchen",
+      "is_internal": true
+    },
+    {
+      "text": "Industrial & Scientific",
+      "url": "https://vistaauction.com/Browse/C26985702/Industrial-Scientific",
+      "is_internal": true
+    },
+    {
+      "text": "Luggage & Travel Gear",
+      "url": "https://vistaauction.com/Browse/C26985704/Luggage-Travel-Gear",
+      "is_internal": true
+    },
+    {
+      "text": "Movies & TV",
+      "url": "https://vistaauction.com/Browse/C26985706/Movies-TV",
+      "is_internal": true
+    },
+    {
+      "text": "Musical Instruments",
+      "url": "https://vistaauction.com/Browse/C26985708/Musical-Instruments",
+      "is_internal": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.facebook.com/tr?id=657009646627080&ev=PageView&noscript=1",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/709c299c-b368-4e5c-9745-6fa6f934169c.png",
+      "alt": "Vista Auction",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/39682be6-f09f-4c26-bf49-1576f2f9b0b2_thumbfit.jpg",
+      "alt": "Listing Image",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/49d63ecc-8f1f-4535-9476-b8c41bce3f44_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/71dc8f49-5ca6-4d84-a01e-5432e792d583_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/b54a8634-69c6-4cab-88fb-f07103c28443_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/d86e4ec0-b940-429c-aa8c-ff65a9b25a1b_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/23696fe7-fc63-440e-a316-48329f13ed12_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/fadd504e-424f-4004-8e59-09020f5148f7_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/342a7b58-0514-4ce0-95b7-ca26a46c5117_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/b8c2ea64-2d18-45b3-8237-f80efce302e5_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/e77151ec-fa1c-4755-95bf-f9d9c8780ba4_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/f2188b33-445f-46eb-85aa-3c05b4a05785_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/ca375951-6bd2-47cd-b523-c32b1675b349_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/1bf5db88-ab3c-406a-9647-ad6498443576_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/fe10d2b9-abd7-454a-ad00-d5171692cfba_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/8b342b3d-91c1-4766-95ba-6c1d3e54696c_thumbfit.jpg",
+      "alt": "Listing Image",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/7f033ec6-cd20-4ff9-b7cf-27edf640d540_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/c763fdf2-e4a4-4450-9635-c2b27bf18be7_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    },
+    {
+      "src": "https://vistaauction.blob.core.windows.net/assets/media/30106eb5-d918-4129-883e-75b3fdaa1826_thumbcrop.jpg",
+      "alt": "LotImage",
+      "title": ""
+    }
+  ],
+  "structured_data": {
+    "microdata": [],
+    "json-ld": [],
+    "opengraph": [],
+    "microformat": [],
+    "rdfa": [
+      {
+        "@id": "_:N6312b289ee2e41e384e0143247188dcb",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+          }
+        ]
+      },
+      {
+        "@id": "_:N3d4ae5a5fbfb460a95102017b6251f13",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#group"
+          }
+        ]
+      },
+      {
+        "@id": "_:Ndc584483b43e465db927f43e397788fe",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#group"
+          }
+        ]
+      },
+      {
+        "@id": "_:N7b23ed6e04bd4b72b569b55f149ca403",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#button"
+          }
+        ]
+      },
+      {
+        "@id": "_:N58f1cb87bbdd4130bab17993dea8cfbf",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#menu"
+          }
+        ]
+      },
+      {
+        "@id": "_:N59525c1e29ae41ea88186059b657d43a",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#navigation"
+          }
+        ]
+      }
+    ],
+    "dublincore": [
+      {
+        "namespaces": {},
+        "elements": [
+          {
+            "name": "description",
+            "content": "We are Vista Auction, an online liquidation company located in Charlotte, NC were all bids start at $1. We auction off amazon overstock, and returns with all bids starting at $1",
+            "URI": "http://purl.org/dc/elements/1.1/description"
+          }
+        ],
+        "terms": [
+          {
+            "name": "dcterms.audience",
+            "content": "Global",
+            "URI": "http://purl.org/dc/terms/audience"
+          }
+        ]
+      }
+    ]
+  },
+  "auction_data": [],
+  "navigation": {
+    "main_menu": [
+      {
+        "text": "",
+        "url": "https://vistaauction.com/"
+      },
+      {
+        "text": "Home",
+        "url": "https://vistaauction.com/"
+      },
+      {
+        "text": "Category",
+        "url": "https://vistaauction.com"
+      },
+      {
+        "text": "All Categories",
+        "url": "https://vistaauction.com/Listing"
+      },
+      {
+        "text": "Auction",
+        "url": "https://vistaauction.com/Browse/C163118/Auction"
+      },
+      {
+        "text": "Appliances",
+        "url": "https://vistaauction.com/Browse/C26985670/Appliances"
+      },
+      {
+        "text": "Automotive",
+        "url": "https://vistaauction.com/Browse/C26985676/Automotive"
+      },
+      {
+        "text": "Baby Products",
+        "url": "https://vistaauction.com/Browse/C26985678/Baby-Products"
+      },
+      {
+        "text": "Beauty & Personal Care",
+        "url": "https://vistaauction.com/Browse/C26985680/Beauty-Personal-Care"
+      },
+      {
+        "text": "Books",
+        "url": "https://vistaauction.com/Browse/C26985682/Books"
+      },
+      {
+        "text": "CDs & Vinyl",
+        "url": "https://vistaauction.com/Browse/C26985684/CDs-Vinyl"
+      },
+      {
+        "text": "Cell Phones & Accessories",
+        "url": "https://vistaauction.com/Browse/C26985686/Cell-Phones-Accessories"
+      },
+      {
+        "text": "Electronics",
+        "url": "https://vistaauction.com/Browse/C26985692/Electronics"
+      },
+      {
+        "text": "Grocery & Gourmet Food",
+        "url": "https://vistaauction.com/Browse/C26985694/Grocery-Gourmet-Food"
+      },
+      {
+        "text": "Handmade Products",
+        "url": "https://vistaauction.com/Browse/C26985696/Handmade-Products"
+      },
+      {
+        "text": "Health & Household",
+        "url": "https://vistaauction.com/Browse/C26985698/Health-Household"
+      },
+      {
+        "text": "Home & Kitchen",
+        "url": "https://vistaauction.com/Browse/C26985700/Home-Kitchen"
+      },
+      {
+        "text": "Industrial & Scientific",
+        "url": "https://vistaauction.com/Browse/C26985702/Industrial-Scientific"
+      },
+      {
+        "text": "Luggage & Travel Gear",
+        "url": "https://vistaauction.com/Browse/C26985704/Luggage-Travel-Gear"
+      },
+      {
+        "text": "Movies & TV",
+        "url": "https://vistaauction.com/Browse/C26985706/Movies-TV"
+      },
+      {
+        "text": "Musical Instruments",
+        "url": "https://vistaauction.com/Browse/C26985708/Musical-Instruments"
+      },
+      {
+        "text": "Office Products",
+        "url": "https://vistaauction.com/Browse/C26985710/Office-Products"
+      },
+      {
+        "text": "Arts, Crafts & Sewing",
+        "url": "https://vistaauction.com/Browse/C26986751/Arts-Crafts-Sewing"
+      },
+      {
+        "text": "Clothing, Shoes & Jewelry",
+        "url": "https://vistaauction.com/Browse/C26986753/Clothing-Shoes-Jewelry"
+      },
+      {
+        "text": "Patio, Lawn & Garden",
+        "url": "https://vistaauction.com/Browse/C26986755/Patio-Lawn-Garden"
+      },
+      {
+        "text": "Pet Supplies",
+        "url": "https://vistaauction.com/Browse/C26986757/Pet-Supplies"
+      },
+      {
+        "text": "Sports & Outdoors",
+        "url": "https://vistaauction.com/Browse/C26986759/Sports-Outdoors"
+      },
+      {
+        "text": "Tools & Home Improvement",
+        "url": "https://vistaauction.com/Browse/C26986761/Tools-Home-Improvement"
+      },
+      {
+        "text": "Toys & Games",
+        "url": "https://vistaauction.com/Browse/C26986763/Toys-Games"
+      },
+      {
+        "text": "Video Games",
+        "url": "https://vistaauction.com/Browse/C26986765/Video-Games"
+      },
+      {
+        "text": "MysteryBox",
+        "url": "https://vistaauction.com/Browse/C316769116/MysteryBox"
+      },
+      {
+        "text": "2500 Sardis Rd, Charlotte",
+        "url": "https://vistaauction.com/Browse/R581813796/2500-Sardis-Rd-Charlotte"
+      },
+      {
+        "text": "Register",
+        "url": "https://vistaauction.com/Account/Register"
+      },
+      {
+        "text": "Sign In",
+        "url": "https://vistaauction.com/Account/LogOn?returnUrl=%2F"
+      },
+      {
+        "text": "Category",
+        "url": "https://vistaauction.com/Browse"
+      },
+      {
+        "text": "Contact Us",
+        "url": "https://vistaauction.com/Contact"
+      },
+      {
+        "text": "About Us",
+        "url": "https://vistaauction.com/About"
+      },
+      {
+        "text": "How to Begin",
+        "url": "https://vistaauction.com/page/Howitworks"
+      },
+      {
+        "text": "FAQ",
+        "url": "https://vistaauction.com/page/FAQ"
+      },
+      {
+        "text": "Home",
+        "url": "https://vistaauction.com/"
+      },
+      {
+        "text": "Category",
+        "url": "https://vistaauction.com"
+      },
+      {
+        "text": "All Categories",
+        "url": "https://vistaauction.com/Listing"
+      },
+      {
+        "text": "Auction",
+        "url": "https://vistaauction.com/Browse/C163118/Auction"
+      },
+      {
+        "text": "Appliances",
+        "url": "https://vistaauction.com/Browse/C26985670/Appliances"
+      },
+      {
+        "text": "Automotive",
+        "url": "https://vistaauction.com/Browse/C26985676/Automotive"
+      },
+      {
+        "text": "Baby Products",
+        "url": "https://vistaauction.com/Browse/C26985678/Baby-Products"
+      },
+      {
+        "text": "Beauty & Personal Care",
+        "url": "https://vistaauction.com/Browse/C26985680/Beauty-Personal-Care"
+      },
+      {
+        "text": "Books",
+        "url": "https://vistaauction.com/Browse/C26985682/Books"
+      },
+      {
+        "text": "CDs & Vinyl",
+        "url": "https://vistaauction.com/Browse/C26985684/CDs-Vinyl"
+      },
+      {
+        "text": "Cell Phones & Accessories",
+        "url": "https://vistaauction.com/Browse/C26985686/Cell-Phones-Accessories"
+      },
+      {
+        "text": "Electronics",
+        "url": "https://vistaauction.com/Browse/C26985692/Electronics"
+      },
+      {
+        "text": "Grocery & Gourmet Food",
+        "url": "https://vistaauction.com/Browse/C26985694/Grocery-Gourmet-Food"
+      },
+      {
+        "text": "Handmade Products",
+        "url": "https://vistaauction.com/Browse/C26985696/Handmade-Products"
+      },
+      {
+        "text": "Health & Household",
+        "url": "https://vistaauction.com/Browse/C26985698/Health-Household"
+      },
+      {
+        "text": "Home & Kitchen",
+        "url": "https://vistaauction.com/Browse/C26985700/Home-Kitchen"
+      },
+      {
+        "text": "Industrial & Scientific",
+        "url": "https://vistaauction.com/Browse/C26985702/Industrial-Scientific"
+      },
+      {
+        "text": "Luggage & Travel Gear",
+        "url": "https://vistaauction.com/Browse/C26985704/Luggage-Travel-Gear"
+      },
+      {
+        "text": "Movies & TV",
+        "url": "https://vistaauction.com/Browse/C26985706/Movies-TV"
+      },
+      {
+        "text": "Musical Instruments",
+        "url": "https://vistaauction.com/Browse/C26985708/Musical-Instruments"
+      },
+      {
+        "text": "Office Products",
+        "url": "https://vistaauction.com/Browse/C26985710/Office-Products"
+      },
+      {
+        "text": "Arts, Crafts & Sewing",
+        "url": "https://vistaauction.com/Browse/C26986751/Arts-Crafts-Sewing"
+      },
+      {
+        "text": "Clothing, Shoes & Jewelry",
+        "url": "https://vistaauction.com/Browse/C26986753/Clothing-Shoes-Jewelry"
+      },
+      {
+        "text": "Patio, Lawn & Garden",
+        "url": "https://vistaauction.com/Browse/C26986755/Patio-Lawn-Garden"
+      },
+      {
+        "text": "Pet Supplies",
+        "url": "https://vistaauction.com/Browse/C26986757/Pet-Supplies"
+      },
+      {
+        "text": "Sports & Outdoors",
+        "url": "https://vistaauction.com/Browse/C26986759/Sports-Outdoors"
+      },
+      {
+        "text": "Tools & Home Improvement",
+        "url": "https://vistaauction.com/Browse/C26986761/Tools-Home-Improvement"
+      },
+      {
+        "text": "Toys & Games",
+        "url": "https://vistaauction.com/Browse/C26986763/Toys-Games"
+      },
+      {
+        "text": "Video Games",
+        "url": "https://vistaauction.com/Browse/C26986765/Video-Games"
+      },
+      {
+        "text": "MysteryBox",
+        "url": "https://vistaauction.com/Browse/C316769116/MysteryBox"
+      },
+      {
+        "text": "2500 Sardis Rd, Charlotte",
+        "url": "https://vistaauction.com/Browse/R581813796/2500-Sardis-Rd-Charlotte"
+      },
+      {
+        "text": "All Categories",
+        "url": "https://vistaauction.com/Listing"
+      },
+      {
+        "text": "Auction",
+        "url": "https://vistaauction.com/Browse/C163118/Auction"
+      },
+      {
+        "text": "Appliances",
+        "url": "https://vistaauction.com/Browse/C26985670/Appliances"
+      },
+      {
+        "text": "Automotive",
+        "url": "https://vistaauction.com/Browse/C26985676/Automotive"
+      },
+      {
+        "text": "Baby Products",
+        "url": "https://vistaauction.com/Browse/C26985678/Baby-Products"
+      },
+      {
+        "text": "Beauty & Personal Care",
+        "url": "https://vistaauction.com/Browse/C26985680/Beauty-Personal-Care"
+      },
+      {
+        "text": "Books",
+        "url": "https://vistaauction.com/Browse/C26985682/Books"
+      },
+      {
+        "text": "CDs & Vinyl",
+        "url": "https://vistaauction.com/Browse/C26985684/CDs-Vinyl"
+      },
+      {
+        "text": "Cell Phones & Accessories",
+        "url": "https://vistaauction.com/Browse/C26985686/Cell-Phones-Accessories"
+      },
+      {
+        "text": "Electronics",
+        "url": "https://vistaauction.com/Browse/C26985692/Electronics"
+      },
+      {
+        "text": "Grocery & Gourmet Food",
+        "url": "https://vistaauction.com/Browse/C26985694/Grocery-Gourmet-Food"
+      },
+      {
+        "text": "Handmade Products",
+        "url": "https://vistaauction.com/Browse/C26985696/Handmade-Products"
+      },
+      {
+        "text": "Health & Household",
+        "url": "https://vistaauction.com/Browse/C26985698/Health-Household"
+      },
+      {
+        "text": "Home & Kitchen",
+        "url": "https://vistaauction.com/Browse/C26985700/Home-Kitchen"
+      },
+      {
+        "text": "Industrial & Scientific",
+        "url": "https://vistaauction.com/Browse/C26985702/Industrial-Scientific"
+      },
+      {
+        "text": "Luggage & Travel Gear",
+        "url": "https://vistaauction.com/Browse/C26985704/Luggage-Travel-Gear"
+      },
+      {
+        "text": "Movies & TV",
+        "url": "https://vistaauction.com/Browse/C26985706/Movies-TV"
+      },
+      {
+        "text": "Musical Instruments",
+        "url": "https://vistaauction.com/Browse/C26985708/Musical-Instruments"
+      },
+      {
+        "text": "Office Products",
+        "url": "https://vistaauction.com/Browse/C26985710/Office-Products"
+      },
+      {
+        "text": "Arts, Crafts & Sewing",
+        "url": "https://vistaauction.com/Browse/C26986751/Arts-Crafts-Sewing"
+      },
+      {
+        "text": "Clothing, Shoes & Jewelry",
+        "url": "https://vistaauction.com/Browse/C26986753/Clothing-Shoes-Jewelry"
+      },
+      {
+        "text": "Patio, Lawn & Garden",
+        "url": "https://vistaauction.com/Browse/C26986755/Patio-Lawn-Garden"
+      },
+      {
+        "text": "Pet Supplies",
+        "url": "https://vistaauction.com/Browse/C26986757/Pet-Supplies"
+      },
+      {
+        "text": "Sports & Outdoors",
+        "url": "https://vistaauction.com/Browse/C26986759/Sports-Outdoors"
+      },
+      {
+        "text": "Tools & Home Improvement",
+        "url": "https://vistaauction.com/Browse/C26986761/Tools-Home-Improvement"
+      },
+      {
+        "text": "Toys & Games",
+        "url": "https://vistaauction.com/Browse/C26986763/Toys-Games"
+      },
+      {
+        "text": "Video Games",
+        "url": "https://vistaauction.com/Browse/C26986765/Video-Games"
+      },
+      {
+        "text": "MysteryBox",
+        "url": "https://vistaauction.com/Browse/C316769116/MysteryBox"
+      },
+      {
+        "text": "2500 Sardis Rd, Charlotte",
+        "url": "https://vistaauction.com/Browse/R581813796/2500-Sardis-Rd-Charlotte"
+      },
+      {
+        "text": "Register",
+        "url": "https://vistaauction.com/Account/Register"
+      },
+      {
+        "text": "Sign In",
+        "url": "https://vistaauction.com/Account/LogOn?returnUrl=%2F"
+      },
+      {
+        "text": "Category",
+        "url": "https://vistaauction.com/Browse"
+      },
+      {
+        "text": "Contact Us",
+        "url": "https://vistaauction.com/Contact"
+      },
+      {
+        "text": "About Us",
+        "url": "https://vistaauction.com/About"
+      },
+      {
+        "text": "How to Begin",
+        "url": "https://vistaauction.com/page/Howitworks"
+      },
+      {
+        "text": "FAQ",
+        "url": "https://vistaauction.com/page/FAQ"
+      },
+      {
+        "text": "Start Here",
+        "url": "https://vistaauction.com/page/How"
+      },
+      {
+        "text": "Buyer Education",
+        "url": "https://vistaauction.com/page/BuyerEducation"
+      },
+      {
+        "text": "FAQ",
+        "url": "https://vistaauction.com/page/FAQ"
+      },
+      {
+        "text": "Pickup Appointments",
+        "url": "https://vistaauction.com/page/BigOrders"
+      },
+      {
+        "text": "Vista Bins and Deals",
+        "url": "https://vistaauction.com/page/VistaBinsandDeals"
+      },
+      {
+        "text": "Contact Us",
+        "url": "https://vistaauction.com/Contact"
+      },
+      {
+        "text": "CURRENT AUCTIONS",
+        "url": "https://vistaauction.com/?ViewFilter=Current"
+      },
+      {
+        "text": "UPCOMING AUCTIONS",
+        "url": "https://vistaauction.com/?ViewFilter=Preview"
+      },
+      {
+        "text": "CLOSED AUCTIONS",
+        "url": "https://vistaauction.com/?ViewFilter=Closed"
+      },
+      {
+        "text": "Current",
+        "url": "https://vistaauction.com/?ViewFilter=Current"
+      },
+      {
+        "text": "Upcoming",
+        "url": "https://vistaauction.com/?ViewFilter=Preview"
+      },
+      {
+        "text": "Closed",
+        "url": "https://vistaauction.com/?ViewFilter=Closed"
+      }
+    ],
+    "breadcrumbs": [],
+    "footer_links": [
+      {
+        "text": "Help",
+        "url": "https://vistaauction.com/Help"
+      },
+      {
+        "text": "Contact Us",
+        "url": "https://vistaauction.com/Contact"
+      },
+      {
+        "text": "About Us",
+        "url": "https://vistaauction.com/About"
+      },
+      {
+        "text": "Terms & Conditions",
+        "url": "https://vistaauction.com/Home/Terms"
+      },
+      {
+        "text": "Privacy Policy",
+        "url": "https://vistaauction.com/Home/PrivacyPolicy"
+      },
+      {
+        "text": "Site Map",
+        "url": "https://vistaauction.com/SiteMap"
+      },
+      {
+        "text": "Click to refresh now",
+        "url": "https://vistaauction.com#Reload"
+      }
+    ]
+  },
+  "pagination": {
+    "current": "1",
+    "next": "",
+    "prev": "",
+    "total": ""
+  },
+  "extraction_time": "2025-06-14T22:47:22.613380"
+}

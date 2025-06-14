@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://vistaauction.com",
+    "error": "Scraping failed: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://vistaauction.com/\", waiting until \"networkidle\"\n",
+    "timestamp": "2025-06-14T23:28:54.216769"
+  }
+]

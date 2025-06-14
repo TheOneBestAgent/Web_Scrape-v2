@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2025-06-14T22:25:50.819802",
+    "error_type": "extract_error",
+    "message": "Extraction error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-06-14T22:25:50.820014",
+    "error_type": "unexpected_error",
+    "message": "Unexpected error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-06-14T22:29:20.992452",
+    "error_type": "extract_error",
+    "message": "Extraction error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+  },
+  {
+    "timestamp": "2025-06-14T22:29:23.110623",
+    "error_type": "unexpected_error",
+    "message": "Unexpected error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+  },
+  {
+    "timestamp": "2025-06-14T22:31:40.886104",
+    "error_type": "extract_error",
+    "message": "Extraction error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+  },
+  {
+    "timestamp": "2025-06-14T22:31:42.608118",
+    "error_type": "unexpected_error",
+    "message": "Unexpected error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+  },
+  {
+    "timestamp": "2025-06-14T22:46:32.806276",
+    "type": "scrape_error",
+    "message": "Object of type coroutine is not JSON serializable"
+  },
+  {
+    "timestamp": "2025-06-14T22:46:32.870012",
+    "type": "fatal_error",
+    "message": "Object of type coroutine is not JSON serializable"
+  },
+  {
+    "timestamp": "2025-06-14T22:46:58.702212",
+    "error": "Page.evaluate: SyntaxError: await is only valid in async functions and the top level bodies of modules\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:313:29)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  }
+]

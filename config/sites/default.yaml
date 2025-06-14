@@ -1,0 +1,61 @@
+# Default configuration for all sites
+
+# Dynamic content settings
+enable_dynamic: true
+wait_for_dynamic: true
+dynamic_wait_time: 2
+
+# Scrolling settings
+scroll: true
+scroll_step: 500
+scroll_delay: 0.1
+
+# Selector settings
+custom_selectors:
+  auction_items:
+    - .lot-item
+    - .auction-item
+    - .product-item
+    - [data-lot-id]
+    - [data-auction-id]
+    - [data-product-id]
+    - .item-card
+    - .lot-card
+    - .auction-card
+    - .product-card
+  
+  navigation:
+    - nav
+    - .navigation
+    - .nav
+    - .menu
+    - [role="navigation"]
+    - .breadcrumb
+    - .breadcrumbs
+  
+  pagination:
+    - .pagination
+    - .pager
+    - .page-numbers
+    - .page-links
+    - [role="navigation"]
+    - .next-page
+    - .prev-page
+    - .page-nav
+
+# Timeout settings
+timeouts:
+  page_load: 30000
+  navigation: 10000
+  element_wait: 5000
+
+# Retry settings
+retry:
+  max_attempts: 3
+  delay: 1
+
+# Logging settings
+logging:
+  level: INFO
+  save_html: false
+  save_screenshots: false 

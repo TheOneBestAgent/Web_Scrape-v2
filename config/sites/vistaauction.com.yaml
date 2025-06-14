@@ -1,0 +1,67 @@
+# Configuration for vistaauction.com
+
+# Inherit from default
+extends: default.yaml
+
+# Dynamic content settings
+enable_dynamic: true
+wait_for_dynamic: true
+dynamic_wait_time: 3  # Longer wait for Vista Auction's dynamic content
+
+# Scrolling settings
+scroll: true
+scroll_step: 300  # Smaller steps for smoother loading
+scroll_delay: 0.2  # Longer delay between scrolls
+
+# Selector settings
+custom_selectors:
+  auction_items:
+    - .lot-item
+    - .auction-item
+    - [data-lot-id]
+    - .item-card
+    - .lot-card
+    - .auction-card
+    - .product-item
+    - .product-card
+    - [data-auction-id]
+    - [data-product-id]
+  
+  navigation:
+    - nav
+    - .navigation
+    - .nav
+    - .menu
+    - [role="navigation"]
+    - .breadcrumb
+    - .breadcrumbs
+    - .category-nav
+    - .auction-nav
+  
+  pagination:
+    - .pagination
+    - .pager
+    - .page-numbers
+    - .page-links
+    - [role="navigation"]
+    - .next-page
+    - .prev-page
+    - .page-nav
+    - .auction-pagination
+
+# Timeout settings
+timeouts:
+  page_load: 60000  # Longer timeout for Vista Auction
+  navigation: 15000
+  element_wait: 10000
+
+# Retry settings
+retry:
+  max_attempts: 5  # More retries for Vista Auction
+  delay: 2  # Longer delay between retries
+
+# Logging settings
+logging:
+  level: INFO
+  save_html: true  # Save HTML for debugging
+  save_screenshots: true  # Save screenshots for debugging 

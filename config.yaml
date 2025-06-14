@@ -1,0 +1,39 @@
+# config.yaml
+
+# Enable or disable major extraction features
+enable_dynamic: true
+enable_navigation: true
+enable_auction: true
+
+# Optional custom selectors to augment or override defaults
+custom_selectors:
+  auction_items:
+    - ".auction-item"
+    - ".lot-item"
+    - "[data-lot-id]"
+    - ".item-card"
+    - ".custom-auction-card"
+    - ".dynamic-lot"
+    - "[data-custom-lot]"
+
+  pagination:
+    - ".pagination"
+    - ".pager"
+    - "[data-pagination]"
+    - ".custom-pagination"
+    - "[aria-label='Page Navigation']"
+
+  navigation:
+    - "nav.main"
+    - "nav.primary"
+    - ".main-menu"
+    - ".primary-menu"
+    - "[data-main-menu]"
+    - "footer"
+    - ".footer"
+    - "[data-footer]"
+    - ".breadcrumbs"
+    - ".breadcrumb"
+    - "[data-breadcrumbs]"
+    - ".navigation-path"
+    - ".path"
