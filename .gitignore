@@ -1,0 +1,6 @@
+__pycache__/
+scraper/__pycache__/
+utils/__pycache__/
+memory/
+config/sites/example.com.yaml
+logs/

@@ -49,7 +49,8 @@ class Scraper:
         """Load HTML content using Playwright."""
         async with async_playwright() as p:
             browser = await p.chromium.launch()
-            page = await browser.new_page()
+            context = await browser.new_context(ignore_https_errors=True)
+            page = await context.new_page()
             
             try:
                 self.logger.info("Loading page...")
@@ -87,11 +88,11 @@ class Scraper:
             # Self-healing selector fallback for auction_items
             if self.enable_auction and "auction_items" in self.custom_selectors:
                 selector_set = self.custom_selectors["auction_items"]
-                selected_selector, extracted_data = rotate_and_retry_selectors(
+                selected_selector, extracted_data = await rotate_and_retry_selectors(
                     selector_set,
-                    lambda sel, html: self.extractor.extract(html, self.url, page, override_selector=sel),
+                    lambda sel, h: self.extractor.extract(h, self.url, page, override_selector=sel),
                     html,
-                    self.url
+                    self.url,
                 )
             else:
                 extracted_data = await self.extractor.extract(html, self.url, page)
