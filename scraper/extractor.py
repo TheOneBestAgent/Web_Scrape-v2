@@ -9,11 +9,12 @@ from typing import Dict, Any, Optional, List, Tuple
 from urllib.parse import urljoin, urlparse
 
 class Extractor:
-    def __init__(self, html: str, url: str):
+    def __init__(self, html: str, url: str, custom_selectors: Dict[str, List[str]] | None = None):
         self.html = html
         self.url = url
         self.soup = BeautifulSoup(html, 'html.parser')
         self.logger = logging.getLogger(__name__)
+        self.custom_selectors = custom_selectors or {}
 
     async def extract(self) -> Dict[str, Any]:
         """
@@ -46,12 +47,12 @@ class Extractor:
     def _has_auction_data(self) -> bool:
         """Check if page contains auction data."""
         # Look for common auction item selectors
-        selectors = [
+        selectors = self.custom_selectors.get('auction_items', [
             'div[class*="lot"]',
             'div[class*="auction-item"]',
             'div[class*="product"]',
             'div[data-lot-id]'
-        ]
+        ])
         
         for selector in selectors:
             if self.soup.select_one(selector):
@@ -61,13 +62,13 @@ class Extractor:
     def _has_navigation(self) -> bool:
         """Check if page contains navigation elements."""
         # Look for common navigation selectors
-        selectors = [
+        selectors = self.custom_selectors.get('navigation', [
             'nav',
             'ul[class*="pagination"]',
             'div[class*="pagination"]',
             'a[class*="next"]',
             'a[class*="prev"]'
-        ]
+        ])
         
         for selector in selectors:
             if self.soup.select_one(selector):
@@ -84,12 +85,12 @@ class Extractor:
         items = []
         
         # Try different selectors for auction items
-        selectors = [
+        selectors = self.custom_selectors.get('auction_items', [
             'div[class*="lot"]',
             'div[class*="auction-item"]',
             'div[class*="product"]',
             'div[data-lot-id]'
-        ]
+        ])
         
         for selector in selectors:
             elements = self.soup.select(selector)
@@ -172,12 +173,13 @@ class Extractor:
         }
         
         # Extract next page URL
-        next_link = self.soup.select_one('a[class*="next"]')
+        pagination_selectors = self.custom_selectors.get('pagination', ['a[class*="next"]', 'a[class*="prev"]'])
+        next_link = self.soup.select_one(pagination_selectors[0])
         if next_link and 'href' in next_link.attrs:
             nav_data['next_page'] = urljoin(self.url, next_link['href'])
         
         # Extract previous page URL
-        prev_link = self.soup.select_one('a[class*="prev"]')
+        prev_link = self.soup.select_one(pagination_selectors[-1])
         if prev_link and 'href' in prev_link.attrs:
             nav_data['prev_page'] = urljoin(self.url, prev_link['href'])
         

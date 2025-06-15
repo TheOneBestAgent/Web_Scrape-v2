@@ -5,45 +5,32 @@ from scraper.selector_logger import update_successful_selectors
 from scraper.config_sync import sync_config_to_db
 from scraper.heuristics_logger import log_heuristics
 from scraper.extractor import Extractor
-from scraper.selector_repair import rotate_and_retry_selectors
+from scraper.selector_manager import get_valid_auction_selectors
+from utils.memory import MemoryBank
+from utils.logger import Logger
 from urllib.parse import urlparse
 from time import time
 from playwright.async_api import async_playwright
-import logging
 import os
 from datetime import datetime
 import json
 import asyncio
 
 class Scraper:
-    def __init__(self, url):
+    def __init__(self, url, memory: MemoryBank | None = None, logger: Logger | None = None):
         self.url = url if url.startswith(('http://', 'https://')) else f'https://{url}'
         self.domain = urlparse(self.url).netloc
         self.config_path = f"config/sites/{self.domain}.yaml"
         self.config = get_config_for_domain(self.url)
-        self.setup_logging()
+
+        self.memory = memory or MemoryBank(self.domain)
+        self.logger = logger or Logger(self.domain)
 
         self.enable_dynamic = self.config.get("enable_dynamic", True)
         self.enable_navigation = self.config.get("enable_navigation", True)
         self.enable_auction = self.config.get("enable_auction", True)
         self.custom_selectors = self.config.get("custom_selectors", {})
 
-        self.extractor = Extractor()
-
-    def setup_logging(self):
-        log_dir = os.path.join('memory', self.domain, 'logs')
-        os.makedirs(log_dir, exist_ok=True)
-        log_file = os.path.join(log_dir, f'scraper_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
-        
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(log_file),
-                logging.StreamHandler()
-            ]
-        )
-        self.logger = logging.getLogger(__name__)
 
     async def load_html(self):
         """Load HTML content using Playwright."""
@@ -84,17 +71,9 @@ class Scraper:
             
             html, page = await self.load_html()
 
-            # Self-healing selector fallback for auction_items
-            if self.enable_auction and "auction_items" in self.custom_selectors:
-                selector_set = self.custom_selectors["auction_items"]
-                selected_selector, extracted_data = rotate_and_retry_selectors(
-                    selector_set,
-                    lambda sel, html: self.extractor.extract(html, self.url, page, override_selector=sel),
-                    html,
-                    self.url
-                )
-            else:
-                extracted_data = await self.extractor.extract(html, self.url, page)
+            selectors = get_valid_auction_selectors(html, self.custom_selectors.get("auction_items"))
+            extractor = Extractor(html, self.url, {"auction_items": selectors})
+            extracted_data = await extractor.extract()
 
             t2 = time()
 
@@ -160,3 +139,4 @@ class Scraper:
         
         with open(error_file, 'w', encoding='utf-8') as f:
             json.dump(errors, f, indent=2, ensure_ascii=False)
+
